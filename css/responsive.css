@@ -1,0 +1,457 @@
+@media screen and (max-width:1300px) {
+    html {
+        font-size: 55%;
+        overflow-x: hidden;
+    }
+
+    .container {
+        height: 65%;
+        width: 80%;
+        margin: 13em auto;
+        padding: 2em 0.5em;
+    }
+
+    #about {
+        height: 100%;
+    }
+
+    .profile-img {
+        width: 33%;
+    }
+
+    #exp {
+        height: 100%;
+    }
+
+    #exp .pic {
+        height: 80%;
+        width: 21%;
+    }
+
+    .slider-controllers {
+        bottom: 13%;
+        left: 6.7%;
+    }
+
+    .slider-controllers .left-slide,
+    .slider-controllers .right-slide {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .left-slide i {
+        top: 8px;
+        left: 11px;
+    }
+
+    .right-slide i {
+        top: 8px;
+        left: 13px;
+    }
+
+    #projects {
+        height: 100%
+    }
+
+    .project-section {
+        height: 56rem;
+    }
+
+    .box {
+        padding: 0 0 1em 0;
+    }
+
+    .docs {
+        font-size: 3%;
+    }
+
+    .docs .skills {
+        height: 35rem;
+        overflow-y: scroll;
+    }
+
+    .skills::-webkit-scrollbar {
+        width: 5px;
+        background: #454D66;
+    }
+
+    .skills::-webkit-scrollbar-thumb {
+        background: white;
+        width: 2px;
+        height: 2px;
+
+    }
+}
+
+@media screen and (max-width:992px) {
+    html {
+        font-size: 45%;
+    }
+
+    .profile-img {
+        height: 100%;
+        width: 35%;
+    }
+
+    .container .about-content {
+        padding: 0;
+
+    }
+
+    .slider-controllers {
+        bottom: 13%;
+    }
+
+    .slider-controllers .left-slide,
+    .slider-controllers .right-slide {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .left-slide i {
+        top: 8px;
+        left: 11px;
+    }
+
+    .right-slide i {
+        top: 8px;
+        left: 13px;
+    }
+
+    .skills {
+        height: 34rem;
+        overflow-y: scroll;
+    }
+
+    .skills::-webkit-scrollbar {
+        width: 5px;
+        background: #454D66;
+    }
+
+    .skills::-webkit-scrollbar-thumb {
+        background: white;
+        width: 2px;
+        height: 2px;
+    }
+}
+
+@media screen and (max-width:860px) {
+
+    .container {
+        width: 85%;
+        z-index: 99999;
+    }
+
+    .effect-2 {
+        bottom: 4%;
+        z-index: 1;
+    }
+
+}
+
+@media screen and (max-width:798px) {
+    .container {
+        width: 95%;
+        margin-top: 10%;
+    }
+
+    .effect-4 {
+        top: 12%;
+    }
+
+    .effect-5 {
+        top: 8%;
+    }
+
+    #projects .effect-4 {
+        top: 4%;
+    }
+
+    #projects .effect-5 {
+        top: 2%;
+    }
+
+    .project-container {
+        height: 90%;
+    }
+
+    .text-projects {
+        font-size: 3em;
+        font-weight: bolder;
+    }
+
+    .projectCard {
+        width: 65%;
+    }
+
+    .projectCardImg {
+        width: 320px;
+    }
+
+    .slider-controllers {
+        bottom: 17%;
+    }
+
+    .footer-container {
+        width: 95%
+    }
+}
+
+@media screen and (max-width:691px) {
+    html {
+        font-size: 45%;
+    }
+
+    .projectCardImg {
+        width: 310px;
+    }
+
+    .profile {
+        padding: 3em 0 0 0;
+    }
+
+    .profile-pic img {
+        width: 30%;
+    }
+
+    .footer-container {
+        width: 95%
+    }
+
+}
+
+@media screen and (max-width:670px) {
+    html {
+        font-size: 40%;
+    }
+
+    section {
+        height: 100%;
+    }
+
+    #home {
+        height: 60rem;
+    }
+
+    .container {
+        height: 60%;
+    }
+
+    .profile-img {
+        display: none;
+    }
+
+    .container .about-content {
+        width: 95%;
+        padding: 2em 1em;
+        background-color: #454d66;
+        color: white;
+    }
+
+    .about-content .about {
+        color: white;
+    }
+
+    .details p {
+        color: white;
+    }
+
+    .details p span {
+        color: #272343;
+    }
+
+    .about-content .social-links a {
+        color: white;
+    }
+
+    .projectCard {
+        width: 65%;
+    }
+
+    .projectCardImg {
+        width: 260px;
+    }
+
+    .footer-container {
+        width: 95%
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    html {
+        font-size: 52%;
+    }
+
+    .profile-pic img {
+        width: 60%;
+    }
+
+    .text-content .name {
+        font-size: 3rem;
+    }
+
+    .text-content h2 span {
+        font-size: 3.3rem;
+    }
+
+    .scroll-down {
+        margin: 1em auto;
+    }
+
+    .effect-3 {
+        display: none;
+    }
+
+    .effect-4 {
+        top: 3%;
+    }
+
+    .effect-5 {
+        top: 3%;
+        right: -3%;
+    }
+
+    #exp .container {
+        height: 60rem;
+    }
+
+    .slider {
+        width: 95%;
+        height: 100%;
+    }
+
+    #exp .pic {
+        display: none;
+    }
+
+    .slider-controllers {
+        width: 30%;
+        top: 6%;
+        left: 66%;
+    }
+
+
+    .slider-controllers .left-slide,
+    .slider-controllers .right-slide {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .left-slide i {
+        top: 13px;
+        left: 15px;
+    }
+
+    .right-slide i {
+        top: 13px;
+        left: 17px;
+    }
+
+    .skills {
+        height: 44rem;
+    }
+
+    .phone-img {
+        display: none;
+    }
+
+    .projectCard {
+        width: 100%;
+        height: 40%
+    }
+
+    .projectCardImg {
+        width: 35rem;
+        height: 87%;
+    }
+
+    .circular-graph {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        flex-basis: 55%;
+        margin: 1em 0;
+    }
+
+    .footer-container {
+        width: 95%
+    }
+}
+
+@media screen and (max-width:500px) {
+    #home {
+        height: 48rem;
+    }
+
+    .profile-pic img {
+        width: 60%;
+    }
+
+    .text-content .name {
+        font-size: 3rem;
+    }
+
+    .text-content h2 span {
+        font-size: 3.3rem;
+    }
+
+    .scroll-down {
+        margin: 1em auto;
+    }
+
+    .effect-wrap {
+        display: none;
+    }
+
+    .resume a {
+        width: 15rem;
+        padding: 1em 2em;
+    }
+
+    .slider-controllers {
+        width: 30%;
+        top: 6%;
+        left: 66%;
+    }
+
+    #exp .container {
+        height: 60rem;
+    }
+
+    .skills {
+        height: 44rem;
+    }
+
+    .projectCard {
+        width: 90%;
+        height: 40%
+    }
+
+    .projectCardImg {
+        width: 20rem;
+        height: 90%;
+    }
+
+    .computerLegs {
+        height: 4rem;
+        z-index: 0;
+    }
+
+    .computerBase {
+        bottom: -30%;
+    }
+
+    .projectCardTitle {
+        font-size: 14px;
+    }
+
+    .footer-container {
+        width: 100%
+    }
+
+}
